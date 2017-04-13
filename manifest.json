@@ -1,0 +1,18 @@
+{
+	"manifest_version":2,
+	"name":"RightClick",
+	"version":"1.0",
+	"background":{
+		"scripts":["background.js"]
+	},
+    "content_scripts": [
+		{
+			"matches":[
+				"<all_urls>"
+			],
+			"js":["jquery-3.2.1.min.js","content.js"]
+		}],
+    "browser_action":{
+    	"default_icon":"myicon.png"
+    }
+}
