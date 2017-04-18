@@ -1,2 +1,2 @@
 # rightclick
-Yet another aspiring Chrome extension
+select-search-ggl
